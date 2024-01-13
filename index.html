@@ -6,103 +6,110 @@
     <link rel="stylesheet" href="style.css ">
  </head>    
   <body>
-        <header>
-          <div class="jumbotron">
+        <header class="jumbroton">
             <h1>3 Rekomendasi Game Seru Untuk Dimainkan</h1>
             <p>Game adalah sesuatu yang dapat dimainkan dengan aturan tertentu sehingga ada yang menang dan ada yang kalah, biasanya dalam konteks tidak serius atau dengan tujuan refreshing.</p>
-          </div>
-      <nav>
-        <ul>
-          <li><a href="#Mobile Legends">Mobile Legends</a></li>
-          <li><a href="#Pubg Mobile">Pubg Mobile</a></li>
-          <li><a href="#Valorant">Valorant</a></li>
-        </ul>
-      </nav>
+            <nav>
+              <ul>
+                <li><a href="#Mobile Legends">Mobile Legends</a></li>
+                <li><a href="#Pubg Mobile">Pubg Mobile</a></li>
+                <li><a href="#Valorant">Valorant</a></li>
+              </ul>
+            </nav>
         </header>
-      <main>
+
+      <main class="container">
         <div id="content">
-          <article id="Mobile Legends" class="card">
-          <h2>Mobile Legends</h2>
-          <img src="assets/ml.jpg" class="featured-image" alt="Mobile Legends">
-          <p>Mobile Legends: Bang Bang adalah permainan Multiplayer Online Battle Arena atau yang sering kita kenal dengan 
-            nama (Moba) yang diterbitkan oleh Moonton, yang kini menjadi anak perusahaan dari ByteDance
-            terdapat banyak Hero dan skin yang bisa kita gunakan baik itu secar  gratis ataupun dengan sistem top up in Game.</p>
+            <section>
+              <article class="slideshow card">
+                  <h2>Preview Games</h2>
+                  <div class="slideshow" class="card">
+                      <div class="gambar">
+                          <div class="mySlides Show1">
+                            <img src="assets/ml2.jpg" width="100%">
+                          </div>
+                          <div class="mySlides Show1">
+                            <img src="assets/pubg2.jpg" width="100%">
+                          </div>
+                          <div class="mySlides Show1">
+                            <img src="assets/valorant2.jpg" width="100%">
+                          </div>
+                          <a class="prev" onclick="plusSlides(-1,0)"></a>
+                          <a class="next" onclick="plusSlides(1,0)"></a>
+                      </div>
+                    </div>
+                </article>
+          </section>
+              <article id="Mobile Legends" class="card">
+                <h2>Mobile Legends</h2>
+                <img src="assets/ml.jpg" class="featured-image" alt="Mobile Legends">
+                <p>Mobile Legends: Bang Bang adalah permainan Multiplayer Online Battle Arena atau yang sering kita kenal dengan 
+                  nama (Moba) yang diterbitkan oleh Moonton, yang kini menjadi anak perusahaan dari ByteDance
+                  terdapat banyak Hero dan skin yang bisa kita gunakan baik itu secar  gratis ataupun dengan sistem top up in Game.
+                </p>
+                
+                <p>Game ini salah satu game yang memakai sistem strategi didalamnya,Karena kita harus kompak untuk mencapai
+                  suatu kemenangan,Jadi setiap 1 Tim ada yang bertugas sebagai Exp lane,Gold lane,Mid laner,Roamer dan Jungler.
+                </p>
+              </article>
           
-          <p>Game ini salah satu game yang memakai sistem strategi didalamnya,Karena kita harus kompak untuk mencapai
-            suatu kemenangan,Jadi setiap 1 Tim ada yang bertugas sebagai Exp lane,Gold lane,Mid laner,Roamer dan Jungler.</p>
-          </article>
-          
-          <article id="Pubg Mobile" class="card">
-          <h2>Pubg</h2>
-          <img src="assets/pubg.jpg"  class="featured-image" alt="Pubg">
-          <p>PlayerUnknown's Battlegrounds adalah sebuah permainan battle royale, di mana 100 orang sekaligus dapat 
-            bermain secara online. Pemenang dari permainan ini adalah individu atau tim yang dapat bertahan hingga akhir. 
-            Pemain bisa bermain solo (individual), tim dengan dua orang, dan tim dengan empat orang,Game ini sangat seru 
-            karena kita harus bertahan sampai akhir untuk menjadi pemenangnya.</p>
-          </article>
-
-          <article id="Valorant" class="card">
-          <h2>Valorant</h2>
-          <img src="assets/valorant.jpg"  class="featured-image" alt="Valorant">
-          <p>Valorant merupakan game FPS yang dibuat oleh perusahaan RIOT,berbeda dari kedua game yang disebutkan diatas.
-            Game ini adalah game PC dan punya komunitas cukup ramai,yang menariknya dari game ini adalah sebuah karakter Valorant
-            bisa mengeluarkan jurus sesuai karakternya masing-masing lalu mereka akan beradu tembakan untuk mencapai kemenangan.</p>
-           </article>
-
-          <article>
-            <div class="slideshow" class="card">
-            <h2>Slide Show Tampilan Game ↓↓  </h2>
-                <div class="gambar">
-                  <div class="mySlides Show1">
-                    <img src="assets/ml2.jpg">
-                  </div>
-                  <div class="mySlides Show1">
-                    <img src="assets/pubg2.jpg">
-                  </div>
-                  <div class="mySlides Show1">
-                    <img src="assets/valorant2.jpg">
-                  </div>
-                  <a class="prev" onclick="plusSlides(-1,0)"></a>
-                  <a class="next" onclick="plusSlides(1,0)"></a>
-                </div>
-                </div>
-          </article>
+              <article id="Pubg Mobile" class="card">
+                  <h2>Pubg</h2>
+                  <img src="assets/pubg.jpg"  class="featured-image" alt="Pubg">
+                  <p>PlayerUnknown's Battlegrounds adalah sebuah permainan battle royale, di mana 100 orang sekaligus dapat 
+                    bermain secara online. Pemenang dari permainan ini adalah individu atau tim yang dapat bertahan hingga akhir. 
+                    Pemain bisa bermain solo (individual), tim dengan dua orang, dan tim dengan empat orang,Game ini sangat seru 
+                    karena kita harus bertahan sampai akhir untuk menjadi pemenangnya.
+                  </p>
+              </article>
+ 
+              <article id="Valorant" class="card">
+                  <h2>Valorant</h2>
+                  <img src="assets/valorant.jpg"  class="featured-image" alt="Valorant">
+                  <p>Valorant merupakan game FPS yang dibuat oleh perusahaan RIOT,berbeda dari kedua game yang disebutkan diatas.
+                    Game ini adalah game PC dan punya komunitas cukup ramai,yang menariknya dari game ini adalah sebuah karakter Valorant
+                    bisa mengeluarkan jurus sesuai karakternya masing-masing lalu mereka akan beradu tembakan untuk mencapai kemenangan.
+                  </p>
+              </article>
         </div>
        <aside>
-     <article class="profile card">
-        <header> 
-          <h2>Profil</h2>
-          <figure>
-            <img src="assets/profile.jpeg" class="profile-img" alt="">
-          </figure>
-        </header>
-        <section>  
-          <h3> <u>Biodata Diri</u></h3>
-          <table>
-             <tr>
-                <th>Nama:</th>
-                <td>Yonathan Christianto</td>
-             </tr>
-             <tr>
-                <th>Tanggal Lahir:</th>
-                <td>3-10-2001</td>
-             </tr>
-             <tr>
-                <th>Pendidikan:</th>
-                <td>Mahasiswa</td>
-             </tr>
-             <tr>
-                <th>Tempat Tinggal:</th>
-                <td>Jakarta Utara</td>
-             </tr>
-         </table>
-      </section> 
-      </article> 
-    </aside>
+          <article class="profile card">
+              <div> 
+                <figure>
+                  <img src="assets/profil.jpg" class="profile-img" alt="">
+                </figure>
+              </div>
+              <p>Saya Yonathan Christianto seorang Web Programmer, yang bertugas membuat website MediaGamezz
+                  MediaGamezz merupkan website yang berisi tentang dunia Games.</p>
+              <p>Connect With Me <img src="./assets/icons/paperclip-solid.svg" alt="" class="iconConnect"></p>
+              <div class="social-links">
+                <a href="https://github.com/yonathanch" target="_blank">
+                    <img src="./assets/icons/github.svg" alt="GitHub Logo">
+                </a>
+                <a href="https://www.linkedin.com/in/yonathan-christianto/" target="_blank">
+                    <img src="./assets/icons//linkedin.svg" alt="LinkedIn Logo">
+                </a>
+                <a href="https://www.instagram.com/natann.ch/" target="_blank">
+                  <img src="./assets/icons/instagram.svg" alt="Instagram Logo">
+              </a>
+            </div>
+          </article> 
+      </aside>
   </main>
-        <footer>
-            <p>MediaGamezz &#169; 2022</p>
-         </footer>
+    <footer>
+      <p id="footer-year"></p>
+    </footer>
+
+    <script>
+      // Mendapatkan elemen dengan ID "footer-year"
+      var footerYearElement = document.getElementById("footer-year");
+
+      // Mendapatkan tahun sekarang
+      var currentYear = new Date().getFullYear();
+
+      // Menetapkan tahun ke dalam elemen footer
+      footerYearElement.textContent = "MediaGamezz © " + currentYear;
+  </script>
       </body>
       <script src="slideshow.js"></script>
       </html>
